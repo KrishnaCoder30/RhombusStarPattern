@@ -1,0 +1,34 @@
+#include <stdio.h>
+ 
+int main()
+{
+ int a,b;
+ for(a=0;a<3;a++)
+ {
+ 	for(b=1-a;b>=0;b--)
+ 	{
+ 		printf(" ");
+ 		}
+ 		for(b=2*a;b>=0;b--)
+ 		{
+ 			printf("*");
+ 			}
+ 			printf("\n");
+ 			}
+ 
+	int c,d;
+	for(c=0;c<2;c++)
+	{
+		for(d=c;d>=0;d--)
+		{
+		printf(" ");
+		}
+		for(d=2-2*c;d>=0;d--)
+		{
+			printf("*");
+			}
+			printf("\n");
+			
+			}
+			}
+ 
